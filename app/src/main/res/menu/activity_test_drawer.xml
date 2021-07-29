@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_checkout"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Checkout" />
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Inventory Management" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard" />
+    </group>
+
+    <item android:title="Mode Switch">
+        <menu>
+            <item
+                android:id="@+id/nav_restaurant"
+                android:icon="@drawable/ic_swap_horiz_black_24dp"
+                android:title="Restaurant" />
+
+        </menu>
+    </item>
+
+</menu>

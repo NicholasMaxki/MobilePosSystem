@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "683530467956",
+    "firebase_url": "https://pos-system-34ee8.firebaseio.com",
+    "project_id": "pos-system-34ee8",
+    "storage_bucket": "pos-system-34ee8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683530467956:android:35b9f250fe1f4217",
+        "android_client_info": {
+          "package_name": "com.example.user.mobilepossystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683530467956-p2tgng5k8l9n3a8v4s1uv14ilr9ln8rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.mobilepossystem",
+            "certificate_hash": "d975ff4552e8d5de93d0d556568364d7f4e2a5f9"
+          }
+        },
+        {
+          "client_id": "683530467956-9eulglbve44nmn03kft1vmn718o8fevo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX8sTN43_6kAS-nBhz6lK-jrE-xiWiUL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683530467956-9eulglbve44nmn03kft1vmn718o8fevo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
