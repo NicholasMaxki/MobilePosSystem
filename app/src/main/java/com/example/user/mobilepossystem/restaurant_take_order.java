@@ -11,6 +11,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
+import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -135,10 +136,12 @@ public class restaurant_take_order extends AppCompatActivity implements Navigati
                             holder.table_pax_tv.setText("PAX : "+tables.get(position).pax);
                             holder.table_layout_tv.setText(tables.get(position).table);
                           if(tables.get(position).status.equals("R")){
-                        holder.table_layout_tv.setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.new_r_s_2, null));
+//                        holder.table_layout_tv.setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.new_r_s_2, null));
+//                              holder.table_layout_tv.setBackground(ContextCompat.getDrawable(context,R.drawable.r_s));
+
                               holder.table_layout_tv.setTextColor(Color.parseColor("#FFFFFF"));
                             }else if(tables.get(position).status.equals("N")){
-                                holder.table_layout_tv.setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.n_s_2, null));
+//                                holder.table_layout_tv.setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.n_s, null));
                               holder.table_layout_tv.setTextColor(Color.parseColor("#FFFFFF"));
                             }
                             holder.table_layout_tv.setOnClickListener(new View.OnClickListener() {
